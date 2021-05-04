@@ -101,7 +101,6 @@ namespace SmoothTilemap
             {
                 return;
             }
-            Debug.Log($"RefreshTile: {position}");
             tilemap.RefreshTile(position);
         }
 
