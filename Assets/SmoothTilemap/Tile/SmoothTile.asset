@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ce3e569935a4d53865160212d055e1, type: 3}
+  m_Name: SmoothTile
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 21300000, guid: 1fecbf40436134df59ca366b03bc8db7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 6992304722866335243, guid: 7154ae5c03edf45958f06bc0bbaec7a4, type: 3}
+  m_Flags: 1
+  m_ColliderType: 1
+  m_tileSpriteSet:
+    m_sprites:
+    - {fileID: 21300000, guid: 4f7dfaceef0e14e5a888abf277a6e84f, type: 3}
+    - {fileID: 21300000, guid: a32d9197ccae34c3199c56898c8a5053, type: 3}
+    - {fileID: 21300000, guid: a82e0a08144d24ea9b497a04030093fd, type: 3}
+    - {fileID: 21300000, guid: a341ec5921a5740c7b731041f5040972, type: 3}
+    - {fileID: 21300000, guid: eab249ec160ad495486f50c101fab0d8, type: 3}
+    - {fileID: 21300000, guid: 5dabe86ce297d4221825b0c483ef302f, type: 3}
+    - {fileID: 21300000, guid: d5acc9d2fe88d4df0972bc4345f59fe5, type: 3}
+    - {fileID: 21300000, guid: f2019af6dbdeb4c98babcf6b8828f5e7, type: 3}
+    - {fileID: 21300000, guid: df21d2cfee19d4fef8f07d6798c9e834, type: 3}
+    - {fileID: 21300000, guid: e0b08901c7f3f47d8a9f3728d51bf0e5, type: 3}
+    - {fileID: 21300000, guid: 9ad72bc28c4c5460191ea2ea5bb9ad5b, type: 3}
+    - {fileID: 21300000, guid: cb692efdb938642df867eb85c57d900d, type: 3}
+    - {fileID: 21300000, guid: b296fbcc237cb4978a6fce31787187d4, type: 3}
+    - {fileID: 21300000, guid: 3b3ce6059fc274996b5d06e9c7a406aa, type: 3}
+    - {fileID: 21300000, guid: 1fecbf40436134df59ca366b03bc8db7, type: 3}
+    - {fileID: 21300000, guid: 691409798216b440aacad24e15770ddd, type: 3}
+  m_tileConditionSets:
+  - m_tileSpriteType: 0
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 1
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 2
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 3
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 14
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 0
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 0
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 0
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 0
+  - m_tileSpriteType: 4
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 5
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 6
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 7
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 8
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 9
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 10
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 11
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 12
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 0
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 0
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 13
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 0
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 0
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
+  - m_tileSpriteType: 15
+    m_tileConditionTypes:
+    - m_tileDirectionType: 0
+      m_tileConditionType: 1
+    - m_tileDirectionType: 1
+      m_tileConditionType: 2
+    - m_tileDirectionType: 2
+      m_tileConditionType: 1
+    - m_tileDirectionType: 3
+      m_tileConditionType: 2
+    - m_tileDirectionType: 4
+      m_tileConditionType: 2
+    - m_tileDirectionType: 5
+      m_tileConditionType: 2
+    - m_tileDirectionType: 6
+      m_tileConditionType: 1
+    - m_tileDirectionType: 7
+      m_tileConditionType: 2
+    - m_tileDirectionType: 8
+      m_tileConditionType: 1
