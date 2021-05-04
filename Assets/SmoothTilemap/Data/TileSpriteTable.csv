@@ -1,0 +1,17 @@
+名前,左上,上,右上,左,中央,右,左下,下,右下
+Ko,O,M,O,E,E,M,O,M,O
+Ko90,O,E,O,M,E,M,O,M,O
+Ko180,O,M,O,M,E,E,O,M,O
+Ko270,O,M,O,M,E,M,O,E,O
+Fill,M,M,M,M,E,M,M,M,M
+L,O,E,O,M,E,E,O,M,O
+L90,O,M,O,M,E,E,O,E,O
+L180,O,M,O,E,E,M,O,E,O
+L270,O,E,O,E,E,M,O,M,O
+I,O,E,O,M,E,E,O,E,O
+I90,O,M,O,E,E,E,O,E,O
+I180,O,E,O,E,E,M,O,E,O
+I270,O,E,O,E,E,E,O,M,O
+Ni,O,M,O,E,E,E,O,M,O
+Ni90,O,E,O,M,E,M,O,E,O
+None,O,E,O,E,E,E,O,E,O
