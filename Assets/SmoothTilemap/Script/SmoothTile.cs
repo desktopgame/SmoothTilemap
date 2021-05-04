@@ -117,7 +117,7 @@ namespace SmoothTilemap
 #endif
     }
 
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
     [CustomEditor(typeof(SmoothTile))]
     public class SmoothTileEditor : Editor
     {
